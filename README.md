@@ -71,3 +71,5 @@ http://localhost:8080/
    ```bash
    docker compose --profile flower up
    ```
+
+---

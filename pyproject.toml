@@ -1,0 +1,6 @@
+[project]
+name = "airflow-learning"
+version = "0.1.0"
+dependencies = [
+    "apache-airflow==3.0.6",
+]

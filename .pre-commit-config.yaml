@@ -1,0 +1,15 @@
+repos:
+  # Black for Python formatting
+  - repo: https://github.com/psf/black
+    rev: 25.1.0
+    hooks:
+      - id: black
+        language_version: python3.11
+
+  # isort for imports sorting
+  - repo: https://github.com/PyCQA/isort
+    rev: 6.0.1
+    hooks:
+      - id: isort
+        name: isort (sort imports)
+        language_version: python3.11

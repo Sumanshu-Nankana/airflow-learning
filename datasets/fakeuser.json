@@ -1,0 +1,65 @@
+{
+  "id": "1234567",
+  "personalInfo": {
+    "firstName": "Sumanshu",
+    "lastName": "Nankana",
+    "email": "sumanshu@gmail.com",
+    "phone": "+1-123--456--789",
+    "birthDate": "1989-05-27",
+    "gender": "male",
+    "address": {
+      "street": "59 Avenue",
+      "city": "Manchestor",
+      "state": "UK",
+      "zipCode": "MC1",
+      "country": "United Kingdom"
+    }
+  },
+  "accountDetails": {
+    "username": "sumanshunankana",
+    "createdAt": "2025-09-21T17:22:21Z",
+    "lastLogin": "2025-09-21T19:15:43Z",
+    "accountStatus": "active",
+    "verificationStatus": "verified",
+    "subscriptionTier": "premium",
+    "subscriptionRenewalDate": "2026-09-21:00:00Z"
+  },
+  "preferences": {
+    "language": "en-UK",
+    "theme": "light",
+    "notifications": {
+      "email": true,
+      "push": true,
+      "sms": false
+    },
+    "privacySettings": {
+      "profileVisibility": "friends",
+      "dataSharing": "minimal",
+      "activityTracking": "enabled"
+    }
+  },
+  "statistics": {
+    "totalLogins": 100,
+    "averageSessionDuration": 18.4,
+    "purchaseHistory": {
+      "totalSpent": 123.87,
+      "numberOfTransactions": 19,
+      "lastPurchaseDate": "2025-09-21T16:22:05Z"
+    },
+    "contentInteractions": {
+      "postsCreated": 57,
+      "commentsWritten": 213,
+      "likesGiven": 846
+    }
+  },
+  "metadata": {
+    "deviceInfo": {
+      "lastDevice": "iPhone 17 Pro",
+      "operatingSystem": "iOS 18.3",
+      "browserAgent": "Safari Mobile 18.4"
+    },
+    "ipAddress": "197.11.10.24",
+    "referralSource": "organic_search",
+    "tags": ["early_adopter", "frequent_commenter", "active_user"]
+  }
+}

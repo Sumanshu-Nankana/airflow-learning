@@ -73,3 +73,21 @@ http://localhost:8080/
    ```
 
 ---
+
+## DAG Examples
+
+This section serves as a directory of the DAGs in this repository. Each example is designed to showcase specific Airflow concepts.
+
+#### User-Processing DAG
+
+This DAG demonstrates a simple data pipeline that extracts user data from a public API, processes it, and loads it into a PostgreSQL database.
+
+**Key Concepts Demonstrated:**
+- **TaskFlow API** using `@task` and `@dag` decorators.
+- **Sensors** for waiting on external resources.
+- **XComs** for passing data between tasks.
+- **Hooks** for interacting with external services (PostgresHook).
+
+**DAG Image:** ![User Processing](docs/01-user-processing-dag.png)
+
+**DAG Code:** [01_user_processing.py](dags/01_user_processing.py)

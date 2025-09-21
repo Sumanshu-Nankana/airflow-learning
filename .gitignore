@@ -4,3 +4,5 @@ logs/
 config/
 plugins/
 .env
+__pycache__/
+.git/
